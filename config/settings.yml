@@ -1,6 +1,6 @@
 plugins:
   mailgun_api_key:
-    default: your_mailgun_api_key
+    default: ''
     client: false
     hidden: false
 
