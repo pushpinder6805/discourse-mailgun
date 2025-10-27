@@ -13,6 +13,7 @@ plugins:
     default: some-api-key
     client: false
     hidden: false
+    secret: false
 
   discourse_api_username:
     default: api_username
