@@ -1,5 +1,5 @@
 plugins:
-  mailgun_api_key:
+  discourse_api_key:
     default: ''
     client: false
     hidden: false
@@ -9,7 +9,7 @@ plugins:
     client: false
     hidden: false
 
-  discourse_api_key:
+  mailgun_api_key:
     default: some-api-key
     client: false
     hidden: false
