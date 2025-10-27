@@ -1,4 +1,4 @@
-# name: tracks-mailgun
+# name: discourse-mailgun
 # about: Discourse Plugin for Mailgun webhooks 
 # version: 0.1
 # authors: Pushpender Chaudhary
