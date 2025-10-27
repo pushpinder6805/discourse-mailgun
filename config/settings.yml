@@ -9,10 +9,11 @@ plugins:
     client: false
     hidden: false
 
-  mailgun_signing_key:
-    default: some-api-key
+  mailgun_api_key:
+    default: ''
+    regex: '^((key-)?\h{32}|\h{32}-\h{8}-\h{8})$'
+    secret: true
     client: false
-    hidden: false
 
   discourse_api_username:
     default: api_username
