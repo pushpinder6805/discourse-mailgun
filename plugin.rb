@@ -71,7 +71,7 @@ after_initialize do
     private
 
     def verify_signature
-      unless ::DiscourseMailgun::Engine.verify_signature(params['timestamp'], params['token'], params['signature'], SiteSetting.mailgun_api_key)
+      unless ::DiscourseMailgun::Engine.verify_signature(params['timestamp'], params['token'], params['signature'], SiteSetting.mailgun_signing_key)
         render json: {}, :status => :unauthorized
       end
     end
